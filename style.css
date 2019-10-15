@@ -4,6 +4,6 @@ h1 {
 
 main {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px);
-    grid-gap: 0em;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 2rem;
 }

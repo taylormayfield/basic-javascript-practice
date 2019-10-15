@@ -9,6 +9,7 @@ films.forEach(function (film) {
     let filmDiv = document.createElement('div')
     let title = document.createElement('h1')
     let crawl = document.createElement('p')
+    let pic = document.createElement('img')
 
     filmDiv.appendChild(title)
     filmDiv.appendChild(crawl)
@@ -29,6 +30,7 @@ people.forEach(function (person) {
 
     name.textContent = person.name
     gender.textContent = gender.name
+    pic.src
 
     mainArea.appendChild(personDiv)
 })
